@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Image Design</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .image-box {
+            padding: 50px;
+        }
+
+        .image-box img {
+            border: 5px solid black;
+            max-width: 100px;
+            max-height: 100px;
+        }
+
+        .image2 {
+            width: 100px;
+            height: 100px;
+        }
+
+        .image3 {
+            float: left; /* or 'right' for right alignment */
+        }
+
+        .image4 {
+            margin: 50px;
+        }
+
+        .image4 img {
+            max-width: 100px;
+            max-height: 100px;
+        }
+
+        .text {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="image-box">
+            <img src="image1.jpg" alt="Image 1">
+        </div>
+        <div class="image-box">
+            <a href="image2.jpg" target="_blank">
+                <img class="image2" src="image2.jpg" alt="Image 2">
+            </a>
+        </div>
+        <div class="image-box">
+            <img class="image3" src="image3.jpg" alt="Image 3">
+        </div>
+        <div class="image-box">
+            <div class="image4">
+                <img src="image4.png" alt="Image 4">
+            </div>
+        </div>
+    </div>
+
+    <div class="text">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel arcu in mauris luctus cursus. Proin
+            tincidunt
+            ligula sit amet quam tincidunt viverra. Maecenas auctor, felis vitae cursus dapibus, tellus urna rhoncus
+            lectus,
+            non dictum arcu libero nec mauris. Nunc venenatis eget mi sit amet tristique. Sed vel ex eu sem gravida
+            faucibus
+            vitae vel ligula. Fusce varius risus et urna lacinia lobortis. Donec aliquam odio eget velit laoreet, ut
+            tincidunt
+            felis rutrum. Ut malesuada eget quam et feugiat. Vivamus id mauris nec massa aliquet semper a id ligula.
+        </p>
+    </div>
+</body>
+
+</html>
