@@ -1,0 +1,35 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: #CCFFFF;
+}
+
+h1 {
+    font-size: 14px;
+    font-variant: small-caps;
+    color: #FF0000;
+    background-color: #00FF00;
+}
+
+p:first-letter {
+    font-size: 200%;
+    font-family: Helvetica, sans-serif;
+    font-variant: small-caps;
+    color: #FF0000;
+}
+
+.income {
+    background-color: #CCCCCC;
+}
+
+.expenses {
+    background-color: #FF0000;
+}
+
+.profit {
+    background-color: #FFFF00;
+}
+
+#budgetsummary {
+    background-color: #FFFFFF;
+    border: 1px dotted;
+}

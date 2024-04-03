@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Radio Button Form</title>
+</head>
+<body style="height: 70vh; display: flex; justify-content: center; align-items: center;">
+    <div style="width: 60%; border: 2px solid black; padding: 20px; border-radius: 10px;">
+        <h1>Search our web site!</h1>
+        <form id="searchForm" action="#" method="post">
+            <fieldset>
+                <h3>Where do you want to search?</h3>
+                
+                <label for="option1"><input type="radio" id="option1" name="option" value="option1"> Whole site</label><br>
+                <label for="option2"><input type="radio" id="option2" name="option" value="option2"> Business Partner Section</label><br>
+                <label for="option3"><input type="radio" id="option3" name="option" value="option3"> Corporate Communication Section</label><br>
+                <label for="option4"><input type="radio" id="option4" name="option" value="option4"> Lotus Education Section</label><br>        
+            </fieldset>
+            <h4>Enter a word or two that we can search on:</h4>
+            <input type="text" id="searchQuery" name="search-query" placeholder="..." style="width: 40vw; height: 2vw;"><br>
+            <input type="submit" value="Submit" style="margin-top: 20px;">
+            <button type="button" onclick="clearForm()">Clear</button>
+        </form>
+    </div>
+
+    <script>
+        function clearForm() {
+            document.getElementById("searchForm").reset();
+        }
+    </script>
+</body>
+</html>
